@@ -56,13 +56,7 @@ public class Album {
         this.canciones = canciones;
     }
 
-    //
 
-    //Metodo para agregar canciones al album
-
-    public void agregarCancion(Cancion cancion) {
-        canciones.add(cancion);
-    }
 
 
 }

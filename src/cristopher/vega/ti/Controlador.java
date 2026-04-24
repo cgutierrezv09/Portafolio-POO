@@ -10,8 +10,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.sql.SQLException;
-import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class Controlador {
     public static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));

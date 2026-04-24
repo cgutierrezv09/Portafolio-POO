@@ -1,7 +1,5 @@
-import cristopher.vega.bl.entities.*;
-import cristopher.vega.ui.Menu;
 
-import javax.sound.sampled.LineUnavailableException;
+import cristopher.vega.ui.Menu;
 import java.io.IOException;
 import java.sql.SQLException;
 

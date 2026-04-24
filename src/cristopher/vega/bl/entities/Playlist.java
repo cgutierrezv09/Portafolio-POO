@@ -40,28 +40,9 @@ public class Playlist {
         return "Nombre de la playlist : " +nombrePlaylist+  "\n Canciones: " +listaCanciones;
     }
 
-    //Metodo para agregar una cancion a la playlist
 
-    public void agregarCancion(Cancion cancion){
-        listaCanciones.add(cancion);
-    }
 
-    //Metodo para eliminar una cancion
 
-    public void eliminarCancion(Cancion cancion){
-        listaCanciones.remove(cancion);
-    }
 
-    //Metodo para buscar la cancion de la playlist
 
-    public Cancion buscarCancion(String nombre){
-
-        for (int i =0; i < listaCanciones.size(); i++){
-            if (listaCanciones.get(i).getNombreCancion().equals(nombre)){
-
-                return listaCanciones.get(i);
-            }
-        }
-        return null;
-    }
 }

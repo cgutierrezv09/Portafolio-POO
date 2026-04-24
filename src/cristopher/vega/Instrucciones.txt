@@ -1,0 +1,2 @@
+Profe como puede observar hay una carpeta llamada musica , si gusta a la hora de registrar la cancion le puede poner el mismo nombre que tiene la carpeta (Sin el .waw)
+para que se le reproduzca la cancion de verdad , si no lo puede hacer de manera sencilla y basica a su gusto

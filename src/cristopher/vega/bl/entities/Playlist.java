@@ -6,7 +6,7 @@ public class Playlist {
 
     //Atributos
     private String nombrePlaylist;
-    private ArrayList <Cancion> listaCanciones;  // agregacion
+    private ArrayList <Cancion> listaCanciones;
 
     //Constructor
     public Playlist(String nombrePlaylist) {
@@ -15,7 +15,6 @@ public class Playlist {
     }
 
     //Getters
-
     public String getNombrePlaylist() {
         return nombrePlaylist;
     }
@@ -25,7 +24,6 @@ public class Playlist {
     }
 
     //Setters
-
     public void setNombrePlaylist(String nombrePlaylist) {
         this.nombrePlaylist = nombrePlaylist;
     }
@@ -35,12 +33,14 @@ public class Playlist {
     }
 
     //To String
-
     public String toString() {
-        return "Nombre de la playlist : " +nombrePlaylist+  "\n Canciones: " +listaCanciones;
+        return "Nombre de la playlist : " + nombrePlaylist + "\n Canciones: " + listaCanciones;
     }
 
-
+    //Metodo para agregar una cancion a la playlist
+    public void agregarCancion(Cancion cancion){
+        listaCanciones.add(cancion);
+    }
 
 
 

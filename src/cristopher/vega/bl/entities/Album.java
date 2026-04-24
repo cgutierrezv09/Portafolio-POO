@@ -56,7 +56,9 @@ public class Album {
         this.canciones = canciones;
     }
 
-
+    public void agregarCancion(Cancion cancion){
+        canciones.add(cancion);
+    }
 
 
 }
